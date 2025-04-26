@@ -1,5 +1,5 @@
 Gerador de Senhas Significativas
-Um projeto simples feito com Flask, que gera uma senha segura baseada em informações pessoais e envia a senha por e-mail.
+Um projeto simples feito com Flask, que gera uma senha segura baseada em informações pessoais.
 
  Acesse o site
 👉 https://gerador-de-senha-2.onrender.com
