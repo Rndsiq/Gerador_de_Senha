@@ -4,14 +4,11 @@ import random
 app = Flask(__name__)
 
 def gerar_senha_significativa(nome_mae, nome_pet, numero_casa):
-    # Obter as primeiras letras dos nomes e torná-las maiúsculas
     parte_mae = nome_mae.strip()[0].upper()
     parte_pet = nome_pet.strip()[0].upper()
 
-    # A palavra "Casa" e o número da casa
     senha = f"{parte_mae}{parte_pet}Casa{numero_casa}"
 
-    # Escolhe um caractere especial para adicionar no final
     simbolo = random.choice(['@', '#', '$', '%', '&', '*', '!'])
     senha += simbolo
 
